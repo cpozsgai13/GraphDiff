@@ -2,58 +2,8 @@
 Provide a diff tool for directed acyclic graphs
 
 ![Alt text](https://g.gravizo.com/svg?
-digraph G {
-rankdir=TB;
-0[label=glossary,shape=component,width=1,height=1,fillcolor="#0000ee5f",color=black,style=filled];
-1[label="title/ZamZam",shape=ellipse,width=1,height=1,fillcolor="#0000ee5f",color=black,style=filled];
-2[label=GlossDiv,shape=component,width=1,height=1,fillcolor="#0000ee5f",color=black,style=filled];
-3[label="title/S",shape=ellipse,width=1,height=1,fillcolor="#0000ee5f",color=black,style=filled];
-4[label=GlossList,shape=component,width=1,height=1,fillcolor="#0000ee5f",color=black,style=filled];
-5[label=GlossEntry,shape=component,width=1,height=1,fillcolor="#0000ee5f",color=black,style=filled];
-6[label="ID/SGML",shape=ellipse,width=1,height=1,fillcolor="#0000ee5f",color=black,style=filled];
-7[label="SortAs/SGML",shape=ellipse,width=1,height=1,fillcolor="#0000ee5f",color=black,style=filled];
-8[label="GlossTerm/Standard Generalized Markup Language",shape=ellipse,width=1,height=1,fillcolor="#0000ee5f",color=black,style=filled];
-9[label="Acronym/SGML",shape=ellipse,width=1,height=1,fillcolor="#0000ee5f",color=black,style=filled];
-10[label="Abbrev/ISO 8879:1986",shape=ellipse,width=1,height=1,fillcolor="#0000ee5f",color=black,style=filled];
-11[label=GlossDef,shape=component,width=1,height=1,fillcolor="#0000ee5f",color=black,style=filled];
-12[label="para/A meta-markup language, used to create markup languages such as DocBook.",shape=ellipse,width=1,height=1,fillcolor="#0000ee5f",color=black,style=filled];
-13[label=GlossSeeAlso,shape=box,width=1,height=1,fillcolor="#0000ee5f",color=black,style=filled];
-14[label="GML/GML",shape=ellipse,width=1,height=1,fillcolor="#0000ee5f",color=black,style=filled];
-15[label="XML/XML",shape=ellipse,width=1,height=1,fillcolor="#0000ee5f",color=black,style=filled];
-16[label="GlossSee/markup",shape=ellipse,width=1,height=1,fillcolor="#0000ee5f",color=black,style=filled];
-0->1 ;
-1->2 ;
-0->2 ;
-2->3 ;
-3->4 ;
-2->4 ;
-4->5 ;
-5->6 ;
-5->7 ;
-6->7 ;
-5->8 ;
-7->8 ;
-5->9 ;
-8->9 ;
-5->10 ;
-9->10 ;
-10->11 ;
-5->11 ;
-11->12 ;
-11->13 ;
-12->13 ;
-13->14 ;
-13->15 ;
-14->15 ;
-5->16 ;
-11->16 ;
-{ rank=same 0}
-{ rank=same 1,2}
-{ rank=same 3,4}
-{ rank=same 5}
-{ rank=same 6,7,8,9,10,11,16}
-{ rank=same 12,13}
-{ rank=same 14,15}
-}
+<img src='https://g.gravizo.com/svg?
+digraph%20G%20%7B%0Arankdir%3DTB%3B%0A0%5Blabel%3Dglossary%2Cshape%3Dcomponent%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A1%5Blabel%3D%22title%2FZamZam%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A2%5Blabel%3DGlossDiv%2Cshape%3Dcomponent%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A3%5Blabel%3D%22title%2FS%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A4%5Blabel%3DGlossList%2Cshape%3Dcomponent%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A5%5Blabel%3DGlossEntry%2Cshape%3Dcomponent%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A6%5Blabel%3D%22ID%2FSGML%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A7%5Blabel%3D%22SortAs%2FSGML%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A8%5Blabel%3D%22GlossTerm%2FStandard%20Generalized%20Markup%20Language%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A9%5Blabel%3D%22Acronym%2FSGML%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A10%5Blabel%3D%22Abbrev%2FISO%208879%3A1986%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A11%5Blabel%3DGlossDef%2Cshape%3Dcomponent%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A12%5Blabel%3D%22para%2FA%20meta-markup%20language%2C%20used%20to%20create%20markup%20languages%20such%20as%20DocBook.%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A13%5Blabel%3DGlossSeeAlso%2Cshape%3Dbox%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A14%5Blabel%3D%22GML%2FGML%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A15%5Blabel%3D%22XML%2FXML%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A16%5Blabel%3D%22GlossSee%2Fmarkup%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A0-%3E1%20%3B%0A1-%3E2%20%3B%0A0-%3E2%20%3B%0A2-%3E3%20%3B%0A3-%3E4%20%3B%0A2-%3E4%20%3B%0A4-%3E5%20%3B%0A5-%3E6%20%3B%0A5-%3E7%20%3B%0A6-%3E7%20%3B%0A5-%3E8%20%3B%0A7-%3E8%20%3B%0A5-%3E9%20%3B%0A8-%3E9%20%3B%0A5-%3E10%20%3B%0A9-%3E10%20%3B%0A10-%3E11%20%3B%0A5-%3E11%20%3B%0A11-%3E12%20%3B%0A11-%3E13%20%3B%0A12-%3E13%20%3B%0A13-%3E14%20%3B%0A13-%3E15%20%3B%0A14-%3E15%20%3B%0A5-%3E16%20%3B%0A11-%3E16%20%3B%0A%7B%20rank%3Dsame%200%7D%0A%7B%20rank%3Dsame%201%2C2%7D%0A%7B%20rank%3Dsame%203%2C4%7D%0A%7B%20rank%3Dsame%205%7D%0A%7B%20rank%3Dsame%206%2C7%2C8%2C9%2C10%2C11%2C16%7D%0A%7B%20rank%3Dsame%2012%2C13%7D%0A%7B%20rank%3Dsame%2014%2C15%7D%0A%7D
+'>
 
 )
