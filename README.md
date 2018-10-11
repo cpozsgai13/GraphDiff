@@ -2,8 +2,20 @@
 Provide a diff tool for directed acyclic graphs
 
 ![Alt text](https://g.gravizo.com/svg?
-<img src='https://g.gravizo.com/svg?
-digraph%20G%20%7B%0Arankdir%3DTB%3B%0A0%5Blabel%3Dglossary%2Cshape%3Dcomponent%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A1%5Blabel%3D%22title%2FZamZam%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A2%5Blabel%3DGlossDiv%2Cshape%3Dcomponent%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A3%5Blabel%3D%22title%2FS%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A4%5Blabel%3DGlossList%2Cshape%3Dcomponent%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A5%5Blabel%3DGlossEntry%2Cshape%3Dcomponent%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A6%5Blabel%3D%22ID%2FSGML%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A7%5Blabel%3D%22SortAs%2FSGML%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A8%5Blabel%3D%22GlossTerm%2FStandard%20Generalized%20Markup%20Language%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A9%5Blabel%3D%22Acronym%2FSGML%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A10%5Blabel%3D%22Abbrev%2FISO%208879%3A1986%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A11%5Blabel%3DGlossDef%2Cshape%3Dcomponent%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A12%5Blabel%3D%22para%2FA%20meta-markup%20language%2C%20used%20to%20create%20markup%20languages%20such%20as%20DocBook.%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A13%5Blabel%3DGlossSeeAlso%2Cshape%3Dbox%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A14%5Blabel%3D%22GML%2FGML%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A15%5Blabel%3D%22XML%2FXML%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A16%5Blabel%3D%22GlossSee%2Fmarkup%22%2Cshape%3Dellipse%2Cwidth%3D1%2Cheight%3D1%2Cfillcolor%3D%22%230000ee5f%22%2Ccolor%3Dblack%2Cstyle%3Dfilled%5D%3B%0A0-%3E1%20%3B%0A1-%3E2%20%3B%0A0-%3E2%20%3B%0A2-%3E3%20%3B%0A3-%3E4%20%3B%0A2-%3E4%20%3B%0A4-%3E5%20%3B%0A5-%3E6%20%3B%0A5-%3E7%20%3B%0A6-%3E7%20%3B%0A5-%3E8%20%3B%0A7-%3E8%20%3B%0A5-%3E9%20%3B%0A8-%3E9%20%3B%0A5-%3E10%20%3B%0A9-%3E10%20%3B%0A10-%3E11%20%3B%0A5-%3E11%20%3B%0A11-%3E12%20%3B%0A11-%3E13%20%3B%0A12-%3E13%20%3B%0A13-%3E14%20%3B%0A13-%3E15%20%3B%0A14-%3E15%20%3B%0A5-%3E16%20%3B%0A11-%3E16%20%3B%0A%7B%20rank%3Dsame%200%7D%0A%7B%20rank%3Dsame%201%2C2%7D%0A%7B%20rank%3Dsame%203%2C4%7D%0A%7B%20rank%3Dsame%205%7D%0A%7B%20rank%3Dsame%206%2C7%2C8%2C9%2C10%2C11%2C16%7D%0A%7B%20rank%3Dsame%2012%2C13%7D%0A%7B%20rank%3Dsame%2014%2C15%7D%0A%7D
-'>
+ digraph G {
+    aize ="4,4";
+    main [shape=box];
+    main -> parse [weight=8];
+    parse -> execute;
+    main -> init [style=dotted];
+    main -> cleanup;
+    execute -> { make_string; printf}
+    init -> make_string;
+    edge [color=red];
+    main -> printf [style=bold,label="100 times"];
+    make_string [label="make a string"];
+    node [shape=box,style=filled,color=".7 .3 1.0"];
+    execute -> compare;
+  }
 
 )
